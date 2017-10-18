@@ -1,5 +1,4 @@
 whois_servers =""".yu	whois.ripe.net
-.co	whois.co
 .yt	whois.nic.yt
 .ws	whois.nic.ws
 .wf	whois.nic.wf
@@ -143,6 +142,7 @@ whois_servers =""".yu	whois.ripe.net
 .com.au	whois.ausregistry.net.au
 .com	whois.verisign-grs.com
 .co.za	whois.coza.net.za
+.co	whois.co
 .cn	whois.cnnic.net.cn
 .cl	nic.cl
 .ck	whois.ck-nic.org.ck
