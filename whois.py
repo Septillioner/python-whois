@@ -1,4 +1,5 @@
 whois_servers =""".yu	whois.ripe.net
+.co	whois.co
 .yt	whois.nic.yt
 .ws	whois.nic.ws
 .wf	whois.nic.wf
@@ -209,10 +210,17 @@ def whois_query(domain):
 			try:
 				sock.connect(host)
 				sock.send("%s\r\n"%(domain))
-				return sock.recv(8192)
+				sockmsg = ''
+				while len(sockmsg) < 10000:
+				        chunk = sock.recv(100)
+				        if(chunk == ''):
+						break
+					sockmsg = sockmsg + chunk
+				return sockmsg
+
+
 			except:
 				return "Connection Error!"
-			
 		else:
 			pass
 	else:
