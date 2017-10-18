@@ -141,7 +141,7 @@ whois_servers =""".yu	whois.ripe.net
 .coop	whois.nic.coop
 .com.au	whois.ausregistry.net.au
 .com	whois.verisign-grs.com
-.co.za	whois.coza.net.za
+.co.za	whois.co.za
 .co	whois.co
 .cn	whois.cnnic.net.cn
 .cl	nic.cl
