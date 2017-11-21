@@ -215,7 +215,7 @@ def whois_query(domain):
 				        chunk = sock.recv(100)
 				        if(chunk == ''):
 						break
-					sockmsg = sockmsg + chunk
+					sockmsg += chunk
 				return sockmsg
 
 
